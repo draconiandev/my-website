@@ -56,14 +56,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://jeffrafter.com`,
+        siteUrl: `https://pavanprakash.now.sh`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jeff Rafter`,
-        short_name: `jeffrafter.com`,
+        name: `Pavan Prakash`,
+        short_name: `pavanprakash.now.sh`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
