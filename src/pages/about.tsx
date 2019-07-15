@@ -16,7 +16,13 @@ export default class Tags extends React.Component<Props> {
     return (
       <Layout title={siteTitle}>
         <Head title="All tags" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
-        <article>About Pavan Prakash...</article>
+        <article>
+          <p>
+            Full-stack engineer with experience in scalability, dev-ops, best practices and design. Currently inventing
+            the future of home shopping at Brillio. Born and raised in Mysuru, I'm currently living in Bengaluru and
+            working as a Technical Specialist at Brillio. I enjoy all things technology, football, and music.
+          </p>
+        </article>
       </Layout>
     );
   }
