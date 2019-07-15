@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Pavan Prakash',
     description: "Pavan's blog",
-    siteUrl: 'https://pavanprakash.now.sh',
+    siteUrl: 'https://pavanprakash.netlify.com',
     author: {
       name: 'Pavan Prakash',
       url: 'https://twitter.com/pavanprakashcs',
@@ -56,14 +56,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://pavanprakash.now.sh`,
+        siteUrl: `https://pavanprakash.netlify.com`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Pavan Prakash`,
-        short_name: `pavanprakash.now.sh`,
+        short_name: `pavanprakash.netlify.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

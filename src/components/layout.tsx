@@ -52,7 +52,7 @@ export default class Layout extends React.Component<Props> {
         </main>
         <StyledFooter className="footer">
           © {new Date().getFullYear()},{` `}
-          <a href="https://pavanprakash.now.sh">pavanprakash.now.sh</a>. Built with
+          <a href="https://pavanprakash.netlify.com">pavanprakash.netlify.com</a>. Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </StyledFooter>
