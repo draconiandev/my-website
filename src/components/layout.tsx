@@ -32,7 +32,7 @@ export default class Layout extends React.Component<Props> {
     const { children } = this.props;
 
     return (
-      <>
+      <div className="container">
         <GlobalStyle />
         <StyledNav className="navigation">
           <ul>
@@ -56,7 +56,7 @@ export default class Layout extends React.Component<Props> {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </StyledFooter>
-      </>
+      </div>
     );
   }
 }

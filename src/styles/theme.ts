@@ -104,7 +104,6 @@ hr {
 
 article {
   position: relative;
-  padding: 5rem 0rem;
 }
 
 section {
@@ -250,6 +249,20 @@ pre.code.fullwidth {
 .bio-link {
   margin-right: 1rem;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex-grow: 1;
+}
+.footer {
+  margin-top: 3rem;
+  text-align: right;
+}
+
 
 @media (max-width: 760px) {
   body {
