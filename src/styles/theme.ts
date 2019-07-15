@@ -247,6 +247,10 @@ pre.code.fullwidth {
   height: 100%;
 }
 
+.bio-link {
+  margin-right: 1rem;
+}
+
 @media (max-width: 760px) {
   body {
     width: 84%;
