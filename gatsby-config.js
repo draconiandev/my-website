@@ -13,6 +13,7 @@ module.exports = {
     social: {
       twitter: 'https://twitter.com/pavanprakashcs',
       github: 'https://github.com/draconiandev',
+      linkedin: 'https://www.linkedin.com/in/pavanprakash21/',
     },
   },
   plugins: [

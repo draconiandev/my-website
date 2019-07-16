@@ -8,6 +8,7 @@ type StaticQueryData = {
       social: {
         twitter: string;
         github: string;
+        linkedin: string;
       };
       author: {
         name: string;
@@ -27,6 +28,7 @@ export default function() {
               social {
                 twitter
                 github
+                linkedin
               }
               author {
                 name
@@ -48,6 +50,9 @@ export default function() {
               </a>
               <a href={social.github} target="_blank" className="bio-link">
                 Github
+              </a>
+              <a href={social.linkedin} target="_blank" className="bio-link">
+                LinkedIn
               </a>
             </p>
           </div>
