@@ -82,4 +82,5 @@ Before you switch the memory allocators in production, make sure to test your ap
 Watch these two videos for a complete understanding of how memory is allocataed and cleaned in Ruby.
 
 [Trash talk by Colin Fulton](https://www.youtube.com/watch?v=qXo3fqjY50o)
+
 [Compacting heaps in Ruby 2.7 by Aaron Patterson](https://www.youtube.com/watch?v=1F3gXYhQsAY)
